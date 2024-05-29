@@ -1,6 +1,7 @@
 import axios from "axios";
 import { Request, Response } from "express";
 import querystring from "node:querystring";
+import "dotenv/config";
 
 export default async function refreshToken(req: Request, res: Response) {
   let refreshToken = req.query.token;

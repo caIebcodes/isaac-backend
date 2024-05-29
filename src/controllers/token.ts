@@ -1,5 +1,6 @@
 import axios, { AxiosResponse, AxiosError } from "axios";
 import querystring from "node:querystring";
+import "dotenv/config";
 
 export async function getToken(code: string): Promise<object> {
   let res = {};
