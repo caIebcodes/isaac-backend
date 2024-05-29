@@ -1,0 +1,13 @@
+runtime: nodejs14
+
+handlers:
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
+
+env_variables:
+  PRODUCTION: true
+  SPOTIFY_CLIENT_KEY: 12345abcde
+  SPOTIFY_CLIENT_SECRET: 12345abcde
+  SERVER_SECRET: 12345abcde

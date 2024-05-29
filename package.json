@@ -1,0 +1,32 @@
+{
+	"name": "isaac-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc --build && node ./dist/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ismaelduraes/isaac-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ismaelduraes/isaac-server/issues"
+	},
+	"homepage": "https://github.com/ismaelduraes/isaac-server#readme",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"nodemon": "^2.0.18",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.4"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13"
+	}
+}
